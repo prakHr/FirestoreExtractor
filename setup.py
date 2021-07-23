@@ -1,9 +1,12 @@
 from distutils.core import setup
 
 setup(name="FirestoreExtractor", 
-      version="1.0", 
+      version="1.1", 
       url="https://github.com/praKhr/FirestoreExtractor",
-      download_url="https://github.com/prakHr/FirestoreExtractor-v/archive/refs/tags/v_09.tar.gz",
+      download_url="https://github.com/prakHr/FirestoreExtractor-v/archive/refs/tags/v10.tar.gz",
+      install_requires=[            # I get to this in a second
+          'firebase-admin',
+      ],
       maintainer='Prakhar Gandhi',
       maintainer_email='gprakhar0@gmail.com',
       py_modules=['FirestoreExtractor'],
