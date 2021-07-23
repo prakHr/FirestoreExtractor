@@ -1,2 +1,2 @@
-from FirestoreExtractor.firestore_extractor import *
-from FirestoreExtractor.firebase_extractor import *
+from firestore_extractor_database.firestore_extractor import *
+from firestore_extractor_database.firebase_extractor import *
