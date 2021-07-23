@@ -1,7 +1,7 @@
 from distutils.core import setup
 
 setup(name="FirestoreExtractor", 
-      version="0.9", 
+      version="1.0", 
       url="https://github.com/praKhr/FirestoreExtractor",
       download_url="https://github.com/prakHr/FirestoreExtractor-v/archive/refs/tags/v_09.tar.gz",
       maintainer='Prakhar Gandhi',
