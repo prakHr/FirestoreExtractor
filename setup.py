@@ -3,7 +3,7 @@ from distutils.core import setup
 setup(name="FirestoreExtractor", 
       version="0.9", 
       url="https://github.com/praKhr/FirestoreExtractor",
-      download_url="https://github.com/prakHr/FirestoreExtractor/archive/refs/tags/v_08.tar.gz",
+      download_url="https://github.com/prakHr/FirestoreExtractor-v/archive/refs/tags/v_09.tar.gz",
       maintainer='Prakhar Gandhi',
       maintainer_email='gprakhar0@gmail.com',
       py_modules=['FirestoreExtractor'],
