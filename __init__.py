@@ -1,2 +1,2 @@
-from FirestoreExtractor.firestore_extractor import *
-from FirestoreExtractor.firebase_extractor import *
+#from .firebase_extractor import extractFromFirebase
+#from .firestore_extractor import extractFromFirstProjectOfFirebase,CollectionExtractor,CollectionReferenceExtractor
