@@ -1,12 +1,11 @@
 from distutils.core import setup
-
 with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
     
 setup(name="FirestoreExtractor", 
-      version="1.4", 
+      version="1.5", 
       url="https://github.com/praKhr/FirestoreExtractor",
-      download_url="https://github.com/prakHr/FirestoreExtractor-v/archive/refs/tags/v13.tar.gz",
+      download_url="https://github.com/prakHr/FirestoreExtractor-v/archive/refs/tags/v14.tar.gz",
       install_requires=[            # I get to this in a second
           'firebase-admin',
       ],
