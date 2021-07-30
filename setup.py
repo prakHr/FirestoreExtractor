@@ -1,9 +1,9 @@
-from distutils.core import setup
+from setuptools import setup
     
 setup(name="FirestoreExtractor", 
-      version="1.6", 
+      version="1.7", 
       url="https://github.com/praKhr/FirestoreExtractor",
-      download_url="https://github.com/prakHr/FirestoreExtractor-v/archive/refs/tags/v15.tar.gz",
+      download_url="https://github.com/prakHr/FirestoreExtractor-v/archive/refs/tags/v16.tar.gz",
       install_requires=[            # I get to this in a second
           'firebase-admin',
       ],
