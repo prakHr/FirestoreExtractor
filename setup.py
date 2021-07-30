@@ -1,16 +1,21 @@
 from distutils.core import setup
 
+with open("README.md", "r", encoding="utf-8") as fh:
+    long_description = fh.read()
+    
 setup(name="FirestoreExtractor", 
-      version="1.3", 
+      version="1.4", 
       url="https://github.com/praKhr/FirestoreExtractor",
-      download_url="https://github.com/prakHr/FirestoreExtractor-v/archive/refs/tags/v11.tar.gz",
+      download_url="https://github.com/prakHr/FirestoreExtractor-v/archive/refs/tags/v13.tar.gz",
       install_requires=[            # I get to this in a second
           'firebase-admin',
       ],
       maintainer='Prakhar Gandhi',
       maintainer_email='gprakhar0@gmail.com',
       py_modules=['FirestoreExtractor'],
-      description="Extracts data from cloud firestore and firebase database") 
+      description="Extracts data from cloud firestore and firebase database",
+      long_description=long_description,
+      long_description_content_type="text/markdown") 
 #from distutils.core import setup
 '''
 from setuptools import setup, find_packages
